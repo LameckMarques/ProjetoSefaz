@@ -26,7 +26,7 @@ obj_Deletar_Usuario.deletar_Usuario(nome);
 
 <script type="text/javascript">
 
- window.location.href="http://localhost:8080/JSP_MySQL_CRUD/cadastro.jsp"
+ window.location.href="http://localhost:8080/ProjetoSefaz/cadastro.jsp"
 </script>
 
 

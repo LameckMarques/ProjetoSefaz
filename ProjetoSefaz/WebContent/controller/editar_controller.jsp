@@ -13,7 +13,7 @@
 
 
 <%
-String nome=request.getParameter("name");
+String nome=request.getParameter("nome");
 String email=request.getParameter("email");
 String senha=request.getParameter("senha");
 String telefone=request.getParameter("telefone");
@@ -35,7 +35,7 @@ obj_Editar_Usuario.editar_Usuario(obj_Usuario_Bean);
 
 <script type="text/javascript">
 
- window.location.href="http://localhost:8080/JSP_MySQL_CRUD/editar.jsp"
+ window.location.href="http://localhost:8080/ProjetoSefaz/cadastro.jsp"
 </script>
 
 

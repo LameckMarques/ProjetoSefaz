@@ -21,7 +21,7 @@
 
 Nome:<input type="text" name="nome"><br>
 Email :<input type="text" name="email"><br>
-Senha:<input type="text" name="senha"><br>
+Senha:<input type="password" name="senha"><br>
 Telefone:<input type="text" name="telefone"><br>
 
 
@@ -56,11 +56,11 @@ while(it_list.hasNext()){
 					<td><%=obj_Usuario_Bean.getTelefone() %></td>	
 					
 					<td>
-					<a href="editar.jsp?nome=<%=obj_Usuario_Bean.getNome()%>">Edit</a>
+					<a href="editar.jsp?nome=<%=obj_Usuario_Bean.getNome()%>">Editar</a>
 					
 					</td>	
 					<td>
-					<a href="controller/deletar_controller.jsp?nome=<%=obj_Usuario_Bean.getNome()%>">Delete</a>
+					<a href="controller/deletar_controller.jsp?nome=<%=obj_Usuario_Bean.getNome()%>">Deletar</a>
 					
 					</td>	
 			</tr>

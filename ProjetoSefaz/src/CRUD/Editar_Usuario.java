@@ -31,8 +31,8 @@ public class Editar_Usuario {
 				
 				obj_Usuario_Bean.setNome(rs.getString("nome"));
 				obj_Usuario_Bean.setEmail(rs.getString("email"));
-				obj_Usuario_Bean.setSenha(rs.getString("Senha"));
-				obj_Usuario_Bean.setTelefone(rs.getString("Telefone"));
+				obj_Usuario_Bean.setSenha(rs.getString("senha"));
+				obj_Usuario_Bean.setTelefone(rs.getString("telefone"));
 				
 				 
 				

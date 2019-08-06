@@ -26,17 +26,17 @@
 
 <h1>EDITAR</h1>
 
-<form action="controller/edit_controller.jsp">
+<form action="controller/editar_controller.jsp">
 
-Nome :<input type="text" name="nome" value="<%=nome%>"><br>
+Nome :<input type="text" name="nome" value="<%=obj_Usuario_Bean.getNome()%>"><br>
 
-Senha :<input type="text" name="senha" value="<%=obj_Usuario_Bean.getSenha()%>"><br>
+Senha :<input type="password" name="senha" value="<%=obj_Usuario_Bean.getSenha()%>"><br>
 Telefone:<input type="text" name="telefone" value="<%=obj_Usuario_Bean.getTelefone()%>"><br>
 Email:<input type="text" name="email" value="<%=obj_Usuario_Bean.getEmail()%>"><br>
 
 
 
-<input type="submit" value="Edit">
+<input type="submit" value="Editar">
 
 </form>
 </center>
